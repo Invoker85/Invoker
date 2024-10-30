@@ -1,0 +1,19 @@
+PYTHON
+
+5 Data-Types
+
+INTEGER / INT: Number without Decimal
+FLOAT / FLOAT: Number with decimal (point)
+String: "test in apprentices"
+Boolean: True / False
+None: None
+
+7 Operators
+
++ Addition
+- Substraction
+* Multiplication
+/ Float Division
+// Integer Division
+** Exponentiation
+% Modulo
