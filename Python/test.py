@@ -1,2 +1,2 @@
-print("hello world")
-print("lets see if it workds")
+print("hello World")
+print(5+5)
