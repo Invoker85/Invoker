@@ -1,1 +1,42 @@
-styles
+
+body {
+    background-color: lightblue;
+}
+
+
+header {
+width: 300px;
+height: 150px;
+background-color: yellow;
+}
+
+
+img {
+width: 300px;
+height: 300px;
+}
+
+footer {
+    width: 300px;
+    height: 150px;
+    background-color: green;
+}
+
+.about-me {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+}
+
+.avatar {
+    background-image: URL("../files/cortes.jpg");
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+## margin is outside
+## padding is inside
