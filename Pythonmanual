@@ -26,3 +26,19 @@ Excue ( Exponents)
 My Most Dear ( Multiplication, Modulo, Division)
 Aunt Sally (Addition & Substraction)
 
+Comparison Operators
+
+== Equals
+!= does not Equal
+< less than
+> greater than
+<= less than or equal to
+>= greater than or equal to
+
+Boolean Operators
+
+and: test if two expressions are BOTH True
+or: test if two expressions EITHER or BOTH True
+not: test if a single expression is false
+
+
