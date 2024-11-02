@@ -1,0 +1,71 @@
+/* CSS Style Manual
+
+#style wird immer für IDs verwendet
+.style wird immer für class verwendet
+style wird für body, header etc. */
+
+.example.style {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 10px 0 10px 0; /* its 10px top, 0; left, 10px bottom 0px right; */
+}
+
+/* Flex Option */
+
+.example.flexbox {
+    display: flex;
+    flex-direction: row; /* or "column;" */
+    flex-wrap: wrap; /* so it folds together if space gets 2 small */
+}
+
+/* justify content */
+
+.example.justify {
+    display: flex;
+    justify-content: flex-start; /* or "flex-end;" & "flex-center;" & "space-between;" & "space-evenly;" */
+}
+
+.popquiz.flexbox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* für eine schnelle Ein- bzw. ausblenden des Codes nimm CTRL, Shift und "/" */
+
+.example.gradient {
+    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(to bottom red, blue); /*to bottom right*/
+    background-image: repeating-linear-gradient(blue red );
+}
+
+#id.boxshadow {
+    box-shadow: 10px 10px 5px /* this third amount is how dense the shadow is */ grey; /* color */
+}
+
+button {
+    border: 0px;
+    padding: 0 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+        to top left,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2) 30%,
+        rgba(0,0,0,0)
+     );
+     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+button:hover {  /* bei dem hover/ active befehl nicht "button.xxx" sondern "button:xxx" */
+    background-color: rgba(255, 0, 0, 1);
+}
+
+button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
