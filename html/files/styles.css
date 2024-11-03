@@ -65,3 +65,7 @@ button:hover {
 button:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
 }
+
+button:before {
+    background-color: black;
+}
