@@ -20,3 +20,8 @@ ggplot(data = data.frame(x = x, y = y), aes(x = x, y = y)) +
        x = "x-Werte",
        y = "y-Werte") +
   theme_minimal()  # Minimalistisches Design
+
+# library(httpgd)
+# hgd()
+# >R Plot: Open Httpgd Url
+
