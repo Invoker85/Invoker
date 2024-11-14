@@ -15,3 +15,8 @@ ggplot(data = data.frame(x = data), aes(x = x)) +
        x = "Werte",
        y = "Häufigkeit") +
   theme_minimal()
+
+
+# library(httpgd)
+# hgd()
+# >R Plot: Open Httpgd Url
